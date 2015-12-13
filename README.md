@@ -1,3 +1,9 @@
+## Code Description (assignment description below)
+
+* main.R includes driver code to read data and produce all 4 plots.
+* readdata.R reads in the data, parses the date/time information, clips to the two days we care about, and returns a data frame.
+* plot#.R (#=1,2,3,4) are the functions to produce the various plots. Each function has an optional arugment "save=TRUE" which determines whether the plot is saved to file or displayed in the R console.
+
 ## Introduction
 
 This assignment uses data from
